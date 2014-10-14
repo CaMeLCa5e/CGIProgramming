@@ -1,0 +1,13 @@
+#Web server support and config
+
+<Directory "/var/www/cgi-bin">
+	AllowOverride None
+	Options ExecCGI
+	Order allow,deny
+	Allow from all 
+</Directory>
+
+<Directory "/var/www/cgi-bin">
+Options All 
+</Directory>
+
